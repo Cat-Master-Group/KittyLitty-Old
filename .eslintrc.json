@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/vue3-essential",
+        "@vue/eslint-config-typescript",
+        "@vue/eslint-config-prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "vue"
+    ]
+}
